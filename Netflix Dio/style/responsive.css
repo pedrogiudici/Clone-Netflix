@@ -1,0 +1,25 @@
+@media screen and (max-width:650px){
+    header .container{
+        flex-direction: column;
+    }
+    .titulo{
+        font-size: 34px;
+    }
+    .filme-principal .descricao{
+        font-size: 22px;   
+    }
+    .botoes{
+        flex-direction: column;
+    }
+    .botao{
+        margin-top: 10px;
+        width: 250px;
+        text-align: center;
+    }
+    #janelafilme{
+        width: 100%;
+    }
+    #janelafilme .filmes-janela .box-filme{
+        width: calc((100% - (5px * 2 * 2)) / 2);
+    }
+}
